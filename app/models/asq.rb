@@ -1,0 +1,2 @@
+class Asq < ApplicationRecord
+end

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @asq %>
+
+<div>
+  <%= link_to "Edit this asq", edit_asq_path(@asq) %> |
+  <%= link_to "Back to asqs", asqs_path %>
+
+  <%= button_to "Destroy this asq", @asq, method: :delete %>
+</div>

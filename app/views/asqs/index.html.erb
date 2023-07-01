@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Asqs</h1>
+
+<div id="asqs">
+  <% @asqs.each do |asq| %>
+    <%= render asq %>
+    <p>
+      <%= link_to "Show this asq", asq %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New asq", new_asq_path %>
